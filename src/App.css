@@ -1,0 +1,314 @@
+/*All CSS Stylings here*/
+
+
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}
+
+
+.bar{
+  background-color: black;
+  height:80px;
+  width:100%;
+  margin-top:-8px;
+  margin-left:-8px;
+  position:absolute;
+}
+
+.inputs{
+  margin-top:20px;
+  position:flex;
+  color:rgb(97, 97, 97);
+}
+
+#title{
+  margin-left:580px;
+  font-family:cursive;
+}
+
+#logoimg{
+  position:absolute;
+  margin-top:19px;
+  height:45px;
+  width:200px;
+}
+
+#back{
+  background-color: skyblue;
+  height:1200px;
+  position:absolute;
+  margin-top:80px;
+  display:flex;
+  width: 100%;
+}
+
+#back2{
+  background-color: skyblue;
+  height:500px;
+  position:absolute;
+  margin-top:80px;
+  display:flex;
+  width: 100%;
+}
+
+.fields{
+  border-radius:5px;
+  height:20px;
+  width:375px;
+  border:none;
+  padding:10px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#filefield{
+  border-radius:5px;
+  height:20px;
+  width:375px;
+  padding:11px;
+  margin-left: 25px;
+  text-align: center;
+  color:grey;
+  background-color: whitesmoke;
+  
+}
+
+input::file-selector-button {
+ background-color: skyblue;
+ border-radius:5px;
+ border:none;
+ height:25px;
+ width:250px;
+ cursor:pointer;
+ 
+}
+
+/*Education*/
+#title2{
+  margin-left:430px;
+  font-family:cursive;
+}
+
+
+
+
+/*LANGUAGES & SKILLS*/
+#title3{
+  margin-left:500px;
+  font-family:cursive;
+}
+
+#fieldslang{
+  border-radius:5px;
+  height:20px;
+  width:375px;
+  border:none;
+  padding:10px;
+  margin-left: 200px;
+  text-align: center;
+  margin-right:-110px;
+}
+
+/*EXPERIENCE*/
+#title4{
+  margin-left:560px;
+  font-family:cursive;
+}
+
+#fieldsexp{
+  border-radius:5px;
+  height:20px;
+  width:375px;
+  border:none;
+  padding:10px;
+  margin-left: 430px;
+  text-align: center;
+
+}
+
+.generate-button{
+  background-color:rgb(0, 0, 0);
+  border-radius:10px;
+  color:white;
+  height:50px;
+  width:170px;
+  position:absolute;
+  margin-left:550px;
+  cursor:pointer;
+}
+
+#footer{
+  background-color: black;
+  height:80px;
+  width:100%;
+  margin-top:1200px;
+  margin-left:-8px;
+  position:absolute;
+  color:white;
+}
+
+#foot{
+  text-align:center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer2{
+  background-color: black;
+  height:80px;
+  width:100%;
+  margin-top:565px;
+  margin-left:-8px;
+  position:absolute;
+  color:white;
+}
+
+#pagenotfound{
+  text-align:center;
+  margin-left:400px;
+  margin-top:100px;
+}
+
+/*RESUME*/
+.verticalbar{
+  background-color:#6C999A;
+  width:295px;
+  height:1100px;
+  margin-top:-21px;
+  margin-left:-8px;
+}
+
+
+.pfp{
+  border-radius:200px;
+  height:230px;
+  width:80%;
+  margin-top:46px;
+  text-align:center;
+  margin-left:25px;
+}
+
+
+.contactme{
+      color:white;
+      position:absolute;
+      margin-top:-300px;
+      margin-left:43px;
+      font-size:20px;
+      
+}
+
+.contactalign{
+  margin-left:-40px;
+}
+
+.fullname{
+  color:rgb(0, 0, 146);
+  font-size:40px;
+  position: absolute;
+  margin-left:420px;
+  margin-top:100px;
+}
+
+
+.profile{
+  color:white;
+  font-size:20px;
+  text-align:center;
+}
+
+#hr{
+  width:450px;
+  position:relative;
+  margin-left:-26px;
+  margin-top:-800px;
+}
+
+.educational{
+  margin-left:280px;
+  margin-top:-650px;
+  color:black;
+  font-family:'Times New Roman', Times, serif
+}
+
+#gyear{
+  margin-top:-24px;
+  margin-left:13px;
+}
+
+#pyear{
+  margin-top:-23px;
+  margin-left:13px;
+}
+
+#uni{
+  margin-top:-10px;
+  margin-left:13px;
+}
+
+#clg{
+  margin-top:-15px;
+  margin-left:13px;
+}
+
+.language{
+  color:black;
+  margin-left:280px;
+  margin-top:77px;
+}
+
+#language{
+  margin-left:13px;
+  margin-top:-21px;
+}
+
+
+.courses{
+  margin-top:500px;
+  color:black;
+  margin-top:77px;
+  margin-left:280px ;
+}
+
+#c{
+  margin-left:15px;
+  margin-top:-20px;
+}
+
+.skills{
+  color:black;
+  margin-left:280px;
+  margin-top:77px;
+}
+
+#s{
+  color:black;
+  margin-left:15px;
+  margin-top:-25px;
+}
+
+.experience{
+  color:black;
+  margin-left:280px;
+  margin-top: 77px;
+}
+
+#exp{
+  margin-left:15px;
+  margin-top:-20px;
+}
+
+.generate-button2{
+  background-color:rgb(0, 0, 0);
+  border-radius:13px;
+  color:white;
+  height:50px;
+  width:170px;
+  position:absolute;
+  margin-left:550px;
+  cursor:pointer;
+  margin-top:50px;
+}
+
+
