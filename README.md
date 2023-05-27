@@ -1,2 +1,2 @@
-# Task3
-SyncIntern's Internship Task 3 - Resume Builder
+# SHREYA - Task 3
+SyncIntern Internship Task 3 - Resume Builder
